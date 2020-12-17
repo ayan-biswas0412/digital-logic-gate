@@ -15,12 +15,15 @@ npm install --save digital-logic-gate
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'digital-logic-gate'
-import 'digital-logic-gate/dist/index.css'
+import { AndGate } from 'digital-logic-gate'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <div>
+        <AndGate input1='1' input2='1' /> // It will give result 1
+      </div>
+    )
   }
 }
 ```
