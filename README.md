@@ -4,6 +4,16 @@
 
 [![NPM](https://img.shields.io/npm/v/digital-logic-gate.svg)](https://www.npmjs.com/package/digital-logic-gate) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+### Welcome to the digital-logic-gate wiki!
+
+## Overview
+The main motivation to create this npm based package is to connect the digital electronics simulation domain to the essence of javascript
+and also making the simulation of the basic gates simpler. Anyone wishing to contribute is most welcome to the repository.
+
+## Welcome contributors
+#### What you need to learn before the start?
+You have to know about the basics of digital gates AND, OR, NOT, NAND, NOR, XOR and XNOR.You have to know about the truth table of that particular gate for which you are writing code. Head over to the [wiki](https://github.com/ayan-biswas0412/digital-logic-gate/wiki) for more developer documentations.
+
 ## Install
 
 ```bash
