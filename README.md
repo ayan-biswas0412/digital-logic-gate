@@ -4,6 +4,13 @@
 
 [![NPM](https://img.shields.io/npm/v/digital-logic-gate.svg)](https://www.npmjs.com/package/digital-logic-gate) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+<p align="center">
+   <img alt="GitHub issues" src="https://img.shields.io/github/issues/ayan-biswas0412/digital-logic-gate"></a>
+   <img alt="GitHub forks" src="https://img.shields.io/github/forks/ayan-biswas0412/digital-logic-gate"></a>
+   <img alt="GitHub stars" src="https://img.shields.io/github/stars/ayan-biswas0412/digital-logic-gate"></a>
+   <img alt="Github license" src="https://img.shields.io/github/license/ayan-biswas0412/digital-logic-gate"></a>
+</p>
+
 ### Welcome to the digital-logic-gate documentation!
 
 ## Overview
