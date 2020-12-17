@@ -1,6 +1,6 @@
 {
   "name": "digital-logic-gate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is for simulation of basic digital logic gates using javascript",
   "author": "ayan-biswas0412",
   "license": "MIT",

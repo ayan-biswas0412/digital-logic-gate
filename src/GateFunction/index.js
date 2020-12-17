@@ -1,8 +1,19 @@
-import {AndGateFunction,ORGateFunction,NoTGateFunction,NANDGateFunction} from './BasicGates';
+import {
+    AndGateFunction,
+    ORGateFunction,
+    NoTGateFunction,
+    NANDGateFunction,
+    NORGateFunction,
+    XORGateFunction,
+    XNORGateFunction
+} from './BasicGates';
 
 export {
     AndGateFunction,
     ORGateFunction,
     NoTGateFunction,
-    NANDGateFunction
+    NANDGateFunction,
+    NORGateFunction,
+    XORGateFunction,
+    XNORGateFunction
 };

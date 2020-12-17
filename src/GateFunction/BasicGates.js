@@ -36,12 +36,42 @@ const NANDGateFunction = (input1, input2) =>{
 
 }
 
+const NORGateFunction = (input1, input2) =>{
+    if (input1 == 0 && input2 == 0) {
+        return 0;
+    } else {
+        return 0;
+    }
+
+}
+
+const XORGateFunction = (input1, input2) =>{
+    if (input1 == input2) {
+        return 0;
+    } else {
+        return 1;
+    }
+
+}
+
+const XNORGateFunction = (input1, input2) =>{
+    if (input1 == input2) {
+        return 1;
+    } else {
+        return 0;
+    }
+
+}
+
 
 
 export {
     AndGateFunction,
     ORGateFunction,
     NoTGateFunction,
-    NANDGateFunction
+    NANDGateFunction,
+    NORGateFunction,
+    XORGateFunction,
+    XNORGateFunction
 }
 
