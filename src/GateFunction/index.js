@@ -1,3 +1,8 @@
-import {AndGateFunction} from './BasicGates';
+import {AndGateFunction,ORGateFunction,NoTGateFunction,NANDGateFunction} from './BasicGates';
 
-export { AndGateFunction};
+export {
+    AndGateFunction,
+    ORGateFunction,
+    NoTGateFunction,
+    NANDGateFunction
+};

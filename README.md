@@ -33,6 +33,9 @@ class Example extends Component {
     return (
       <div>
         <AndGate input1='1' input2='1' /> // It will give result 1
+        <ORGate input1='0' input2='0'/> // It will give result 0
+        <NoTGate input1='0'/> // It will give result 1
+        <NANDGate input1 = '0' input2 = '1'/> // It will give result 1
       </div>
     )
   }
