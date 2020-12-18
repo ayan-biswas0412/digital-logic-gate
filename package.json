@@ -1,8 +1,11 @@
 {
   "name": "digital-logic-gate",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is for simulation of basic digital logic gates using javascript",
-  "author": "ayan-biswas0412",
+  "author": {
+    "name": "Ayan Biswas",
+    "url": "https://www.ayanbiswas.me/"
+  },
   "license": "MIT",
   "repository": "ayan-biswas0412/digital-logic-gate",
   "main": "dist/index.js",
@@ -11,6 +14,19 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "logic",
+    "gates",
+    "logic gates",
+    "digital electronics",
+    "electronics engineering",
+    "computer organization",
+    "simulation tools",
+    "circuit maker",
+    "circuit simulator",
+    "digital simulator",
+    "javascript electronics"
+  ],
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
