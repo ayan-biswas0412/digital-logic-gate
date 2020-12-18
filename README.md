@@ -39,20 +39,16 @@ import React, { Component } from 'react'
 
 import { AndGate,ORGate,NoTGate,NANDGate,NORGate,XORGate,XNORGate } from 'digital-logic-gate'
 
-class Example extends Component {
-  render() {
-    return (
-      <div>
-        <AndGate input1='1' input2='1' /> // It will give result 1
-        <ORGate input1='0' input2='0'/> // It will give result 0
-        <NoTGate input1='0'/> // It will give result 1
-        <NANDGate input1 = '0' input2 = '1'/> // It will give result 1
-        <NORGate input1 = '1' input2 = '0'/> // It will give result 0
-        <XORGate input1 = '1' input2 = '0'/> // Inequality detector
-        <XNORGate input1 = '1' input2 = '1'/> // Equality detector
-      </div>
-    )
-  }
+function simuLateSomething(){
+
+  const AndGateResult = AndGate(1,1); // 1
+  const ORGateResult = ORGate(0,1); // 1
+  const NoTGateResult = NoTGate(1);  // 0
+  const NANDGateResult = NANDGate(0,0); //1
+  const NORGateResult = NORGate(0,1); // 0
+  const XORResult = XORGate(0,1); // 1
+  const XNORResult = XNORGate(0,0); // 1
+
 }
 ```
 
@@ -80,17 +76,14 @@ import React, { Component } from 'react'
 
 import { AndGate } from 'digital-logic-gate'
 
-class Example extends Component {
-  render() {
-    return (
-      <div>
-        <AndGate input1='0' input2='0' /> // It will give result 0
-        <AndGate input1='0' input2='1' /> // It will give result 0
-        <AndGate input1='1' input2='0' /> // It will give result 0
-        <AndGate input1='1' input2='1' /> // It will give result 1
-      </div>
-    )
-  }
+
+function simuLateSomething(){
+
+  const AndGateResultA = AndGate(0,0); // 0
+  const AndGateResultB = AndGate(0,1); // 0
+  const AndGateResultC = AndGate(1,0); // 0
+  const AndGateResultD = AndGate(1,1); // 1
+
 }
 ```
 
@@ -117,17 +110,14 @@ import React, { Component } from 'react'
 
 import { ORGate } from 'digital-logic-gate'
 
-class Example extends Component {
-  render() {
-    return (
-      <div>
-        <ORGate input1='0' input2='0' /> // It will give result 0
-        <ORGate input1='0' input2='1' /> // It will give result 1
-        <ORGate input1='1' input2='0' /> // It will give result 1
-        <ORGate input1='1' input2='1' /> // It will give result 1
-      </div>
-    )
-  }
+
+function simuLateSomething(){
+  const ORGateResultA = ORGate(0,0); // 0
+  const ORGateResultB = ORGate(0,1); // 1
+  const ORGateResultC = ORGate(1,0); // 1
+  const ORGateResultD = ORGate(1,1); // 1
+
+
 }
 ```
 
@@ -152,15 +142,12 @@ import React, { Component } from 'react'
 
 import { NoTGate } from 'digital-logic-gate'
 
-class Example extends Component {
-  render() {
-    return (
-      <div>
-        <NoTGate input1='0'/> // It will give result 1
-        <NoTGate input1='1'/> // It will give result 0
-      </div>
-    )
-  }
+
+function simuLateSomething(){
+  const NoTGateResultA = NoTGate(1);  // 0
+  const NoTGateResultB = NoTGate(0);  // 1
+
+
 }
 ```
 
