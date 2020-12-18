@@ -151,6 +151,23 @@ function simuLateSomething(){
 }
 ```
 
+### Other Basic Gate Functions
+
+Before calling the functions always import them just like below
+
+```jsx
+import React from 'react'
+import { AndGate,ORGate,NoTGate,NANDGate,NORGate,XORGate,XNORGate } from 'digital-logic-gate'
+
+```
+
+| Gate  | Logical Function |     Usage of API           |
+| ---   |:----------------:|:-------------------------:|
+| NAND  | F = (A.B)'       | ```NANDGate(0,0)```        |
+| NOR   | F = (A+B)'       | ```NORGate(0,1)```         |
+| XOR   | F = A'B + AB'    | ```XORGate(0,1)```         |
+| XNOR  | F = AB + A'B'    | ```XNORGate(0,0)```        |
+
 ## How to Contribute
 
 ### Instructions-
